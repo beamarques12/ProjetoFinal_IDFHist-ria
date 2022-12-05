@@ -1,0 +1,249 @@
+*{margin: 0; padding: 0;}
+
+
+
+body{
+    background-color: #B8BF84;
+    font-family: "Solway", "sans-serif";
+}
+
+header{
+    background-color: #F2E750;
+}
+
+.logo-titulo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.logo-titulo img{
+    width: 300px;
+    height: 150px;    
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #222601;
+    font-weight: bold;
+}
+
+nav a:link{
+    transition: 0.5s ease-out;
+}
+nav a:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+}
+
+.texto1, .texto2, .texto3, .texto4{
+    display: flex;
+    margin: 30px;
+}
+.texto1 img{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.texto1 p{
+    background-color: white;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.texto1 p a{
+    color: black;
+    text-decoration: none;
+}
+
+.texto1 p a:hover{
+    font-weight: bold;
+    color: #6F7302;
+    text-decoration: none;
+}
+
+
+.texto2 img, .texto4 img{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.texto2 p{
+    background-color: white;
+    padding: 20px;
+    height: auto;
+    margin-top: 80px;
+}
+
+
+.texto3 img{
+    margin-right: 40px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.texto3 p{
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    height: auto;
+}
+
+.texto4 img{
+    width: 40%;
+    height: 40%;
+}
+
+.texto4 p{
+    background-color: white;
+    height: auto;
+    padding: 20px;
+}
+
+.vermelho{
+    margin: 30px;
+    padding: 20px 40px;
+    background-color: white;
+    height: 2200px;
+    margin-left:  150px;
+    margin-right: 150px;
+}
+
+.vermelho img{
+    width: 50%;
+    height: 20%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.vermelho p{
+    font-size:large;
+}
+
+.vermelho span{
+    color: red;
+}
+
+.parte2 p{
+    width: 500px;
+}
+
+.parte2 img{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: 30px;
+}
+
+.imagens, .imagens2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagens img{
+    width: 330px;
+    height: 450px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.imagens2 img{
+    margin-right: 40px;
+}
+
+.imagens2 figcaption{
+    width: 300px;
+}
+
+.imagem1 img{
+    width: 330px;
+    height: 450px;
+}
+
+.imagem2 img{
+    margin-top: 50px;
+    width: 430px;
+    height: 350px;
+}
+
+.antartica{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: white;
+    width: 75%;
+}
+
+#imgantartica{
+    text-align: center;
+}
+
+
+.imagens3{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.imagens3 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-color: black;
+}
+
+.imgantartica2 img{
+    width: auto;
+    height: 300px;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+figcaption{
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    width: 97.3%;
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #F2E750;
+    float: inline-end;
+}
+
+

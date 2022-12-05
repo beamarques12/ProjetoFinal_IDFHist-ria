@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A história do Pau-Brasil</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #657332;
+        }
+
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            flex-wrap: wrap;
+            z-index: 1;
+        }
+
+        .container .card{
+            position: relative;
+            width: 280px;
+            height: 400px;
+            margin: 30px;
+            box-shadow: 20px 20px 50px #ebf0f265;
+            border-radius: 15px;
+            background-color: #D9D055;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid white;
+            border-left: 1px solid white;
+        }
+
+        .container .card .content{
+            cursor: default;
+            padding:20px;
+            text-align: center;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .container .card:hover .content {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+
+        .container .card .content h2{
+            position: absolute;
+            top: -80px;
+            right: 30px;
+            font-size: 8em;
+            color:rgba(144, 113, 69,-0.005) ;
+            pointer-events: none;
+        }
+
+        .container .card .content h3{
+            font-size: 1.8em;
+            color: #222601;
+            z-index: 1;
+            padding-bottom: 10px;
+        }
+
+        .container .card .content p{
+            font-size: 1em;
+            color: black;
+            font-weight: 300;
+        }
+
+        .container .card .content a{
+            position: relative;
+            display: inline-block;
+            padding: 8px 20px;
+            margin-top: 15px;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 20px;
+            box-shadow: 0.5px 10px rgba(255, 255, 255, 0.2);
+            font-family: "Bebas Neue", "Solway", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Pau-Brasil</h3>
+                <p>Caesalpinia brasiliensis, popularmente conhecida como Pau-brasil, é uma árvore típica das regiões secas da Mata Atlântica, cuja localização está no decorrer do litoral brasileiro. Pode atingir até 30 metros de altura (e haja altura, hein?) e um metro e meio de diâmetro...</p>
+                    <a href="pau-brasil.html">Saiba mais</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>França Antártica</h3>
+                <p>A França Antártica representou uma colônia francesa no período do Brasil Colonial durante 1555 a 1560, no local que atualmente corresponde à cidade do Rio de janeiro.</p>
+                    <a href="françaantartica.html">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>A cor Vermelha</h3>
+                <p>Todas as cores têm uma história que está ligada ao processo evolutivo humano e mesclada intimamente com os aspectos culturais das sociedades. Desde a Antiguidade já era dado ao Vermelho atributos de poder, tanto na religião quanto na guerra.</p>
+                    <a href="vermelho.html">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"));</script>
+</body>
+
+</html>
